@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Node
+node_modules/
+build/
+.env.local
+
+# Models & data (large files)
+backend/models/*.pt
+backend/data/*.db
+
+# Docker
+.docker/
+
+# OS
+.DS_Store
+*.swp
